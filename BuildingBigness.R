@@ -1,4 +1,11 @@
-setwd("..")
+# This includes code to:
+# (1) generate the networks, 
+# (2) run the ERGMs, 
+# (3) visualize the results (plots of fitted probabilities), 
+# (4) run the binary logistic regressions predicting external alters of "high position", 
+# (5) produce scatter plots of reputation and weighted PageRank centrality, 
+# (6) run PCAs across the reputational qualities.
+
 require(igraph)
 
 Ten <- read.csv("TenMetadata.csv",header=TRUE)
@@ -489,9 +496,6 @@ for (i in 9:1) {
 }
 points(points[,1], c(9:1), pch=3, cex=1.5)
 dev.off()
-
-
-
 
 
 
