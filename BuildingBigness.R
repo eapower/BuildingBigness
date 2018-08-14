@@ -2,7 +2,7 @@
 # (1) generate the networks, 
 # (2) run the ERGMs, 
 # (3) visualize the results (plots of fitted probabilities), 
-# (4) run the binary logistic regressions predicting external alters of "high position", 
+# (4) run the binomial regressions predicting external alters of "high position", 
 # (5) produce scatter plots of reputation and weighted PageRank centrality, 
 # (6) run PCAs across the reputational qualities.
 
